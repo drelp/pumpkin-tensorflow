@@ -18,3 +18,9 @@ if __name__ == "__main__":
     train_images.shape
 
     len(train_labels)
+
+    train_labels
+
+    test_images.shape
+
+    len(test_labels)
