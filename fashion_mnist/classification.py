@@ -24,3 +24,9 @@ if __name__ == "__main__":
     test_images.shape
 
     len(test_labels)
+
+    plt.figure()
+    plt.imshow(train_images[0])
+    plt.colorbar()
+    plt.grid(False)
+    plt.show()
