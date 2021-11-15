@@ -51,7 +51,7 @@ class Train:
         self.data = DataSource()
 
     def train(self):
-        check_path = '/model/ckpt/cp-{epoch:04d}.ckpt'
+        check_path = './ckpt/cp-{epoch:04d}.ckpt'
         # period 每隔5epoch保存一次
         save_model_cb = tf.keras.callbacks.ModelCheckpoint(
             check_path, save_weights_only=True, verbose=1, period=5)
