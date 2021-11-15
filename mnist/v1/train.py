@@ -2,6 +2,11 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 from model import Network
 
+'''
+python 3.6
+tensorflow 1.4
+'''
+
 
 class Train:
     def __init__(self):
@@ -55,6 +60,7 @@ class Train:
         accuracy = self.sess.run(self.net.accuracy,
                                  feed_dict={self.net.x: test_x, self.net.label: test_label})
         print("准确率: %.2f，共测试了%d张图片 " % (accuracy, len(test_label)))
+
 
 if __name__ == "__main__":
     app = Train()
