@@ -21,6 +21,9 @@ sudo pip2.7.1 install tensorflow -i https://pypi.doubanio.com/simple/
 
 ```
 https://github.com/tensorflow/models/tree/master/research/slim
+https://hub.tensorflow.google.cn/
+https://www.tensorflow.org/hub
+https://tfhub.dev
 ```
 
 ```shell script
