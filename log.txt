@@ -1,0 +1,14 @@
+sudo pip2.7.1 install --upgrade pip -i https://pypi.doubanio.com/simple/
+Password:
+The directory '/Users/peterzhang/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/peterzhang/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting pip
+  Downloading https://pypi.doubanio.com/packages/27/79/8a850fe3496446ff0d584327ae44e7500daf6764ca1a382d2d02789accf7/pip-20.3.4-py2.py3-none-any.whl (1.5MB)
+    100% |████████████████████████████████| 1.5MB 152kB/s
+Installing collected packages: pip
+  Found existing installation: pip 9.0.1
+    Uninstalling pip-9.0.1:
+      Successfully uninstalled pip-9.0.1
+Successfully installed pip-20.3.4
+You are using pip version 20.3.4, however version 21.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
