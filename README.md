@@ -6,6 +6,8 @@ source ~/tensorflow/bin/activate
 pip3 list
 pip3 install --upgrade pip
 
+pip3.9 list
+
 pip uninstall tensorflow
 
 pip2.7.1 list|grep tensorflow

@@ -42,3 +42,20 @@ six        1.12.0
 wheel      0.33.1
 You are using pip version 19.0.3, however version 21.3.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
+
+pip3 --version
+pip 19.0.3 from /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/site-packages/pip (python 3.7)
+
+pip3.9 --version
+pip 21.2.4 from /usr/local/lib/python3.9/site-packages/pip (python 3.9)
+
+pip3.9 list
+Package    Version
+---------- -------
+pip        21.2.4
+protobuf   3.17.3
+setuptools 57.4.0
+six        1.16.0
+wheel      0.37.0
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
