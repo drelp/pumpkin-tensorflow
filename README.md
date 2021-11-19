@@ -8,6 +8,7 @@ pip2.7.1 list|grep tensorflow
 tensorflow (1.0.1)
 pip2.7.1 install --upgrade pip -i https://pypi.doubanio.com/simple/
 sudo pip2.7.1 install --upgrade pip -i https://pypi.doubanio.com/simple/
+sudo pip2.7.1 install tensorflow -i https://pypi.doubanio.com/simple/
 ```
 
 ```shell script
