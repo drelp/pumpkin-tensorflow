@@ -59,3 +59,142 @@ six        1.16.0
 wheel      0.37.0
 WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
 You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
+
+
+pip3.9 install tensorflow -i https://pypi.doubanio.com/simple/
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Looking in indexes: https://pypi.doubanio.com/simple/
+Collecting tensorflow
+  Downloading https://pypi.doubanio.com/packages/c3/22/bbc80818eecf1050e9fb2c115dda1b3112ef2fb99c5e21b9407941c65db8/tensorflow-2.7.0-cp39-cp39-macosx_10_11_x86_64.whl (207.1 MB)
+     |████████████████████████████████| 207.1 MB 6.4 kB/s
+Requirement already satisfied: wheel<1.0,>=0.32.0 in /usr/local/lib/python3.9/site-packages (from tensorflow) (0.37.0)
+Collecting termcolor>=1.1.0
+  Downloading https://pypi.doubanio.com/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz (3.9 kB)
+Collecting tensorflow-estimator<2.8,~=2.7.0rc0
+  Downloading https://pypi.doubanio.com/packages/db/de/3a71ad41b87f9dd424e3aec3b0794a60f169fa7e9a9a1e3dd44290b86dd6/tensorflow_estimator-2.7.0-py2.py3-none-any.whl (463 kB)
+     |████████████████████████████████| 463 kB 3.0 MB/s
+Collecting google-pasta>=0.1.1
+  Downloading https://pypi.doubanio.com/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl (57 kB)
+     |████████████████████████████████| 57 kB 3.5 MB/s
+Collecting libclang>=9.0.1
+  Downloading https://pypi.doubanio.com/packages/49/74/67bede3b40b46d9eccd74ffc67fdf963971173082b6533be83f3ef5679eb/libclang-12.0.0-py2.py3-none-macosx_10_9_x86_64.whl (12.2 MB)
+     |████████████████████████████████| 12.2 MB 3.8 MB/s
+Requirement already satisfied: six>=1.12.0 in /usr/local/lib/python3.9/site-packages (from tensorflow) (1.16.0)
+Requirement already satisfied: numpy>=1.14.5 in /usr/local/lib/python3.9/site-packages (from tensorflow) (1.21.4)
+Requirement already satisfied: protobuf>=3.9.2 in /usr/local/lib/python3.9/site-packages (from tensorflow) (3.17.3)
+Collecting flatbuffers<3.0,>=1.12
+  Downloading https://pypi.doubanio.com/packages/3d/d0/26033c70d642fbc1e35d3619cf3210986fb953c173b1226709f75056c149/flatbuffers-2.0-py2.py3-none-any.whl (26 kB)
+Collecting keras-preprocessing>=1.1.1
+  Downloading https://pypi.doubanio.com/packages/79/4c/7c3275a01e12ef9368a892926ab932b33bb13d55794881e3573482b378a7/Keras_Preprocessing-1.1.2-py2.py3-none-any.whl (42 kB)
+     |████████████████████████████████| 42 kB 3.0 MB/s
+Collecting absl-py>=0.4.0
+  Downloading https://pypi.doubanio.com/packages/2c/03/e3e19d3faf430ede32e41221b294e37952e06acc96781c417ac25d4a0324/absl_py-1.0.0-py3-none-any.whl (126 kB)
+     |████████████████████████████████| 126 kB 4.6 MB/s
+Collecting wrapt>=1.11.0
+  Downloading https://pypi.doubanio.com/packages/d6/4a/0a9b71f13be3b5c7616365913a89e601f1d152c1b60b268358685ea94f09/wrapt-1.13.3-cp39-cp39-macosx_10_9_x86_64.whl (33 kB)
+Collecting gast<0.5.0,>=0.2.1
+  Downloading https://pypi.doubanio.com/packages/b6/48/583c032b79ae5b3daa02225a675aeb673e58d2cb698e78510feceb11958c/gast-0.4.0-py3-none-any.whl (9.8 kB)
+Requirement already satisfied: typing-extensions>=3.6.6 in /usr/local/lib/python3.9/site-packages (from tensorflow) (4.0.0)
+Collecting tensorboard~=2.6
+  Downloading https://pypi.doubanio.com/packages/2d/eb/80f75ab480cfbd032442f06ec7c15ef88376c5ef7fd6f6bf2e0e03b47e31/tensorboard-2.7.0-py3-none-any.whl (5.8 MB)
+     |████████████████████████████████| 5.8 MB 10.2 MB/s
+Collecting keras<2.8,>=2.7.0rc0
+  Downloading https://pypi.doubanio.com/packages/6b/8b/065f94ba03282fa41b2d76942b87a180a9913312c4611ea7d6508fbbc114/keras-2.7.0-py2.py3-none-any.whl (1.3 MB)
+     |████████████████████████████████| 1.3 MB 6.0 MB/s
+Collecting tensorflow-io-gcs-filesystem>=0.21.0
+  Downloading https://pypi.doubanio.com/packages/7f/66/97da14dbca3a0be570c7610328c9be7f5ce4434ecf834e385b5ee5f5cf5d/tensorflow_io_gcs_filesystem-0.22.0-cp39-cp39-macosx_10_14_x86_64.whl (1.6 MB)
+     |████████████████████████████████| 1.6 MB 1.4 MB/s
+Collecting opt-einsum>=2.3.2
+  Downloading https://pypi.doubanio.com/packages/bc/19/404708a7e54ad2798907210462fd950c3442ea51acc8790f3da48d2bee8b/opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+     |████████████████████████████████| 65 kB 2.8 MB/s
+Collecting grpcio<2.0,>=1.24.3
+  Downloading https://pypi.doubanio.com/packages/e8/2e/95c6b3e93cf70afd9e320147ad4fae4e6aefb532bc191e1f801ff0ed38ab/grpcio-1.42.0-cp39-cp39-macosx_10_10_x86_64.whl (4.0 MB)
+     |████████████████████████████████| 4.0 MB 364 kB/s
+Collecting h5py>=2.9.0
+  Downloading https://pypi.doubanio.com/packages/d9/4b/65a107682a5df28e4deb1d17d53c980bdae0ce30325c005262bad351c8d3/h5py-3.6.0-cp39-cp39-macosx_10_9_x86_64.whl (3.1 MB)
+     |████████████████████████████████| 3.1 MB 976 kB/s
+Collecting astunparse>=1.6.0
+  Downloading https://pypi.doubanio.com/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting werkzeug>=0.11.15
+  Downloading https://pypi.doubanio.com/packages/1e/73/51137805d1b8d97367a8a77cae4a792af14bb7ce58fbd071af294c740cf0/Werkzeug-2.0.2-py3-none-any.whl (288 kB)
+     |████████████████████████████████| 288 kB 4.0 MB/s
+Collecting markdown>=2.6.8
+  Downloading https://pypi.doubanio.com/packages/9f/d4/2c7f83915d437736996b2674300c6c4b578a6f897f34e40f5c04db146719/Markdown-3.3.6-py3-none-any.whl (97 kB)
+     |████████████████████████████████| 97 kB 3.8 MB/s
+Collecting google-auth-oauthlib<0.5,>=0.4.1
+  Downloading https://pypi.doubanio.com/packages/b1/0e/0636cc1448a7abc444fb1b3a63655e294e0d2d49092dc3de05241be6d43c/google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: setuptools>=41.0.0 in /usr/local/lib/python3.9/site-packages (from tensorboard~=2.6->tensorflow) (57.4.0)
+Collecting tensorboard-plugin-wit>=1.6.0
+  Downloading https://pypi.doubanio.com/packages/1a/c1/499e600ba0c618b451cd9c425ae1c177249940a2086316552fee7d86c954/tensorboard_plugin_wit-1.8.0-py3-none-any.whl (781 kB)
+     |████████████████████████████████| 781 kB 4.8 MB/s
+Collecting tensorboard-data-server<0.7.0,>=0.6.0
+  Downloading https://pypi.doubanio.com/packages/3e/48/dd135dbb3cf16bfb923720163493cab70e7336db4b5f3103d49efa730404/tensorboard_data_server-0.6.1-py3-none-macosx_10_9_x86_64.whl (3.5 MB)
+     |████████████████████████████████| 3.5 MB 4.6 MB/s
+Requirement already satisfied: requests<3,>=2.21.0 in /usr/local/lib/python3.9/site-packages (from tensorboard~=2.6->tensorflow) (2.26.0)
+Collecting google-auth<3,>=1.6.3
+  Downloading https://pypi.doubanio.com/packages/6a/f7/06cbd5ebfba40a9d51df6217f9325317d824234400454aebcf014e2eee38/google_auth-2.3.3-py2.py3-none-any.whl (155 kB)
+     |████████████████████████████████| 155 kB 3.9 MB/s
+Collecting cachetools<5.0,>=2.0.0
+  Downloading https://pypi.doubanio.com/packages/ea/c1/4740af52db75e6dbdd57fc7e9478439815bbac549c1c05881be27d19a17d/cachetools-4.2.4-py3-none-any.whl (10 kB)
+Collecting pyasn1-modules>=0.2.1
+  Downloading https://pypi.doubanio.com/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+     |████████████████████████████████| 155 kB 4.5 MB/s
+Collecting rsa<5,>=3.1.4
+  Downloading https://pypi.doubanio.com/packages/e9/93/0c0f002031f18b53af7a6166103c02b9c0667be528944137cc954ec921b3/rsa-4.7.2-py3-none-any.whl (34 kB)
+Collecting requests-oauthlib>=0.7.0
+  Downloading https://pypi.doubanio.com/packages/a3/12/b92740d845ab62ea4edf04d2f4164d82532b5a0b03836d4d4e71c6f3d379/requests_oauthlib-1.3.0-py2.py3-none-any.whl (23 kB)
+Collecting importlib-metadata>=4.4
+  Downloading https://pypi.doubanio.com/packages/c4/1f/e2238896149df09953efcc53bdcc7d23597d6c53e428c30e572eda5ec6eb/importlib_metadata-4.8.2-py3-none-any.whl (17 kB)
+Collecting zipp>=0.5
+  Downloading https://pypi.doubanio.com/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl (5.3 kB)
+Collecting pyasn1<0.5.0,>=0.4.6
+  Downloading https://pypi.doubanio.com/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+     |████████████████████████████████| 77 kB 3.7 MB/s
+Requirement already satisfied: charset-normalizer~=2.0.0 in /usr/local/lib/python3.9/site-packages (from requests<3,>=2.21.0->tensorboard~=2.6->tensorflow) (2.0.7)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.9/site-packages (from requests<3,>=2.21.0->tensorboard~=2.6->tensorflow) (3.3)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.9/site-packages (from requests<3,>=2.21.0->tensorboard~=2.6->tensorflow) (2021.10.8)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /usr/local/lib/python3.9/site-packages (from requests<3,>=2.21.0->tensorboard~=2.6->tensorflow) (1.26.7)
+Collecting oauthlib>=3.0.0
+  Downloading https://pypi.doubanio.com/packages/e8/5d/9dd1c29e5a786525f6342f6c1d812ed2e37edc653ad297048c1668988053/oauthlib-3.1.1-py2.py3-none-any.whl (146 kB)
+     |████████████████████████████████| 146 kB 4.6 MB/s
+Building wheels for collected packages: termcolor
+  Building wheel for termcolor (setup.py) ... done
+  Created wheel for termcolor: filename=termcolor-1.1.0-py3-none-any.whl size=4847 sha256=640c6d69d9baea2eb4cdc510ad1a81da94335a3265d65c749a40d9f259caf0d8
+  Stored in directory: /Users/peterzhang/Library/Caches/pip/wheels/d8/aa/75/fbb3e746f9b722e5db18839aa7f8ef060d5ad75df0a4819602
+Successfully built termcolor
+Installing collected packages: pyasn1, zipp, rsa, pyasn1-modules, oauthlib, cachetools, requests-oauthlib, importlib-metadata, google-auth, werkzeug, tensorboard-plugin-wit, tensorboard-data-server, markdown, grpcio, google-auth-oauthlib, absl-py, wrapt, termcolor, tensorflow-io-gcs-filesystem, tensorflow-estimator, tensorboard, opt-einsum, libclang, keras-preprocessing, keras, h5py, google-pasta, gast, flatbuffers, astunparse, tensorflow
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+  DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
+Successfully installed absl-py-1.0.0 astunparse-1.6.3 cachetools-4.2.4 flatbuffers-2.0 gast-0.4.0 google-auth-2.3.3 google-auth-oauthlib-0.4.6 google-pasta-0.2.0 grpcio-1.42.0 h5py-3.6.0 importlib-metadata-4.8.2 keras-2.7.0 keras-preprocessing-1.1.2 libclang-12.0.0 markdown-3.3.6 oauthlib-3.1.1 opt-einsum-3.3.0 pyasn1-0.4.8 pyasn1-modules-0.2.8 requests-oauthlib-1.3.0 rsa-4.7.2 tensorboard-2.7.0 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.0 tensorflow-2.7.0 tensorflow-estimator-2.7.0 tensorflow-io-gcs-filesystem-0.22.0 termcolor-1.1.0 werkzeug-2.0.2 wrapt-1.13.3 zipp-3.6.0
+WARNING: You are using pip version 21.2.4; however, version 21.3.1 is available.
+You should consider upgrading via the '/usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip' command.
