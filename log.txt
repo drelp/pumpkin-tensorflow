@@ -160,7 +160,7 @@ Collecting oauthlib>=3.0.0
 Building wheels for collected packages: termcolor
   Building wheel for termcolor (setup.py) ... done
   Created wheel for termcolor: filename=termcolor-1.1.0-py3-none-any.whl size=4847 sha256=640c6d69d9baea2eb4cdc510ad1a81da94335a3265d65c749a40d9f259caf0d8
-  Stored in directory: /Users/peterzhang/Library/Caches/pip/wheels/d8/aa/75/fbb3e746f9b722e5db18839aa7f8ef060d5ad75df0a4819602
+  Stored in directory: ~/Library/Caches/pip/wheels/d8/aa/75/fbb3e746f9b722e5db18839aa7f8ef060d5ad75df0a4819602
 Successfully built termcolor
 Installing collected packages: pyasn1, zipp, rsa, pyasn1-modules, oauthlib, cachetools, requests-oauthlib, importlib-metadata, google-auth, werkzeug, tensorboard-plugin-wit, tensorboard-data-server, markdown, grpcio, google-auth-oauthlib, absl-py, wrapt, termcolor, tensorflow-io-gcs-filesystem, tensorflow-estimator, tensorboard, opt-einsum, libclang, keras-preprocessing, keras, h5py, google-pasta, gast, flatbuffers, astunparse, tensorflow
   DEPRECATION: Configuring installation scheme with distutils config files is deprecated and will no longer work in the near future. If you are using a Homebrew or Linuxbrew Python, please see discussion at https://github.com/Homebrew/homebrew-core/issues/76621
