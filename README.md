@@ -3,6 +3,8 @@
 ```
 source ~/tensorflow/bin/activate
 
+pip3 list
+
 pip uninstall tensorflow
 
 pip2.7.1 list|grep tensorflow
