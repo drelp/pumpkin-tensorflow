@@ -19,6 +19,10 @@ sudo pip2.7.1 install --upgrade pip -i https://pypi.doubanio.com/simple/
 sudo pip2.7.1 install tensorflow -i https://pypi.doubanio.com/simple/
 ```
 
+```
+https://github.com/tensorflow/models/tree/master/research/slim
+```
+
 ```shell script
 python /code/src/mnist/v4_cnn/train.py
 
