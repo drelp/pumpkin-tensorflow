@@ -8,6 +8,8 @@ pip3 install --upgrade pip
 
 pip3.9 list
 
+pip3.9 install -r requirements.txt -i https://pypi.doubanio.com/simple/
+
 pip uninstall tensorflow
 
 pip2.7.1 list|grep tensorflow
