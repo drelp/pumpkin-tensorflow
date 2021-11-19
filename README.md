@@ -1,5 +1,9 @@
 # pumpkin-tensorflow
 
+```
+source ~/tensorflow/bin/activate
+```
+
 ```shell script
 python /code/src/mnist/v4_cnn/train.py
 
