@@ -12,3 +12,23 @@ Installing collected packages: pip
 Successfully installed pip-20.3.4
 You are using pip version 20.3.4, however version 21.3.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
+
+sudo pip2.7.1 install tensorflow -i https://pypi.doubanio.com/simple/
+WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
+Please see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.
+To avoid this problem you can invoke Python with '-m pip' instead of running pip directly.
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. pip 21.0 will drop support for Python 2.7 in January 2021. More details about Python 2 support in pip can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support pip 21.0 will remove support for this functionality.
+WARNING: The directory '~/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Looking in indexes: https://pypi.doubanio.com/simple/
+Requirement already satisfied: tensorflow in /Library/Python/2.7/site-packages (1.0.1)
+Requirement already satisfied: mock>=2.0.0 in /Library/Python/2.7/site-packages (from tensorflow) (2.0.0)
+Requirement already satisfied: wheel in /Library/Python/2.7/site-packages (from tensorflow) (0.29.0)
+Requirement already satisfied: six>=1.10.0 in /Library/Python/2.7/site-packages (from tensorflow) (1.10.0)
+Requirement already satisfied: numpy>=1.11.0 in /Library/Python/2.7/site-packages (from tensorflow) (1.12.1)
+Requirement already satisfied: protobuf>=3.1.0 in /Library/Python/2.7/site-packages (from tensorflow) (3.2.0)
+Requirement already satisfied: pbr>=0.11 in /Library/Python/2.7/site-packages (from mock>=2.0.0->tensorflow) (2.1.0)
+Requirement already satisfied: funcsigs>=1; python_version < "3.3" in /Library/Python/2.7/site-packages (from mock>=2.0.0->tensorflow) (1.0.2)
+Requirement already satisfied: setuptools in /Library/Python/2.7/site-packages (from protobuf>=3.1.0->tensorflow) (34.4.1)
+Requirement already satisfied: packaging>=16.8 in /Library/Python/2.7/site-packages (from setuptools->protobuf>=3.1.0->tensorflow) (16.8)
+Requirement already satisfied: appdirs>=1.4.0 in /Library/Python/2.7/site-packages (from setuptools->protobuf>=3.1.0->tensorflow) (1.4.3)
+Requirement already satisfied: pyparsing in /Library/Python/2.7/site-packages (from packaging>=16.8->setuptools->protobuf>=3.1.0->tensorflow) (2.2.0)
