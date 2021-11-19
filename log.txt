@@ -32,3 +32,13 @@ Requirement already satisfied: setuptools in /Library/Python/2.7/site-packages (
 Requirement already satisfied: packaging>=16.8 in /Library/Python/2.7/site-packages (from setuptools->protobuf>=3.1.0->tensorflow) (16.8)
 Requirement already satisfied: appdirs>=1.4.0 in /Library/Python/2.7/site-packages (from setuptools->protobuf>=3.1.0->tensorflow) (1.4.3)
 Requirement already satisfied: pyparsing in /Library/Python/2.7/site-packages (from packaging>=16.8->setuptools->protobuf>=3.1.0->tensorflow) (2.2.0)
+
+pip3 list
+Package    Version
+---------- -------
+pip        19.0.3
+setuptools 40.8.0
+six        1.12.0
+wheel      0.33.1
+You are using pip version 19.0.3, however version 21.3.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
